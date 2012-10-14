@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python testgen2.py $1 $2

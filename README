@@ -1,0 +1,60 @@
+
+      `7MM"""Mq.                       `7MM  `7MMM.     ,MMF'        OO 
+        MM   `MM.                        MM    MMMb    dPMM          88 
+        MM   ,M9  .gP"Ya   ,6"Yb.   ,M""bMM    M YM   ,M MM  .gP"Ya  || 
+        MMmmdM9  ,M'   Yb 8)   MM ,AP    MM    M  Mb  M' MM ,M'   Yb || 
+        MM  YM.  8M""""""  ,pm9MM 8MI    MM    M  YM.P'  MM 8M"""""" `' 
+        MM   `Mb.YM.    , 8M   MM `Mb    MM    M  `YM'   MM YM.    , ,, 
+      .JMML. .JMM.`Mbmmd' `Moo9^Yo.`Wbmd"MML..JML. `'  .JMML.`Mbmmd' db
+      
+      -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Black Box Test Generator for Immutable ADTs
+
+Designed by:
+    Stephen Elliott: steell1890@gmail.com
+    Kyle Billemeyer: billemeyer.k@husky.neu.edu
+    Nick Bagley:     nbags@ccs.neu.edu
+    John Amicangelo: amicangelo.j@husky.neu.edu
+
+
+In order to run the program, run the following command on a CCIS LINUX machine:
+
+./cs4500 file1 file2
+
+where
+
+    file1 is the name of an existing file that contains textual input
+    in the syntax specified in the assignment text.
+
+    file2 is the name of a file to be created by the software, to
+    be filled with generated expressions. If the file already exists,
+    it will be overwritten.
+
+
+Parser generation courtesy of YAPPS:  
+    http://www.theory.stanford.edu/~amitp/yapps/
+	
+
+EXTRA CREDIT: NON-DETERMINISM
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+We have experimented with added non-determinism support to the project. It was added
+as more of a hack than having been designed for from the ground up. Also, when enabled,
+some of the features of the original (primitive operation simplification, for one) no
+longer work. These features aren't so important that their ommission should cause us
+to lose credit on the assignment, but for the sake of cleanliness, we have decided to
+keep it separate.
+
+To run the program with non-deterministic expression support, run the following command
+on a CCIS LINUX machine:
+
+./cs4500-ND file1 file2
+
+where
+
+	file1 is the name of an existing file that contains textual input
+    in the syntax specified in the assignment text.
+
+    file2 is the name of a file to be created by the software, to
+    be filled with generated expressions. If the file already exists,
+    it will be overwritten.
